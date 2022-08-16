@@ -1,0 +1,168 @@
+#title{ 
+    background: #ff4c68;
+    color: #fff;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h1 {  
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-weight: 400;
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    text-align: center;
+    padding: 3% 15%;
+    padding-bottom: 0%;
+}
+
+
+
+.navbar{
+    padding: 0rem 0rem 4.5rem 0rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 100;
+
+}
+
+.btn-download{
+    margin: 5% 3% 5% 0%;
+}
+
+/* title image */
+.title-img-div{
+    padding: 0;
+    margin: 0;
+    padding-left: 4rem;
+
+}
+.title-img{
+    width: 80%;
+    transform: rotate(18deg);
+    
+}
+
+/* feature box */
+
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+
+#testimonials{
+     
+     text-align: center;
+     color: #fff;
+     background-color: #ef8172;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+#pricing {
+    padding: 100px;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+
+  .card-body {
+    height: 32vw;
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    text-align: center;
+}
+  
+  /* CTA Section */
+  
+  
+  /* Footer Section */
+  
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
